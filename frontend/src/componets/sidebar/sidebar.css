@@ -1,0 +1,75 @@
+.sidebar{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+   height: 100vh;
+}
+.top{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+ }
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+ 
+}
+
+
+.center{
+    padding-left: 30px;
+ flex:8;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.icon{
+    cursor: pointer;
+color: #A6A6FF;
+}
+.info{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(25, 51, 74);
+    text-transform: capitalize;
+   margin: 0;
+padding: 5px;
+}
+li{
+    display: flex;
+    align-items: center;
+    row-gap: 400px;
+    cursor: pointer;
+    column-gap:10px;
+    margin-top: 20px;
+}
+li:hover{
+    color:#EFD5DD;
+}
+ 
+.link{
+    position: absolute;
+    transform: translate(2px,5%);
+
+}
+ .setting{
+    display: flex;
+    gap: 5px;
+    
+ }
+ .coloroptionOne{
+    background-color: #000000;
+ }
+ .coloroptionTwo{
+    background-color: rgb(0, 255, 255);
+ }
